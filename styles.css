@@ -59,7 +59,7 @@ body {
     margin: 12px 0;
 }
 
-.header .title button {
+button {
     background-color: black;
     border: 3px solid rgb(89, 115, 243); 
     border-radius: 12px;
@@ -122,16 +122,44 @@ body {
     flex-wrap: wrap;
 }
 
-.quotes p{
+.quotes .quotes-container {
     margin: 0 auto;
     width: 50%;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .quotes .author {
+    margin-top: 18px;
     text-align: right;
+    font-weight: 800;
 }
 
+.sign-up {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.sign-container {
+    width: 50%;
+    background-color: rgb(89, 115, 243);
+    border: 3px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 54px;
+    border-radius: 12px;
+}
 
+.sign-container button {
+    border: 3px solid white;
+}
+
+.footer {
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
